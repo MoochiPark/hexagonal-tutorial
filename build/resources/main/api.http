@@ -1,0 +1,21 @@
+### 회원가입
+POST localhost:8888/signUp
+Content-Type: application/json
+
+{
+  "accountId": "test1",
+  "name": "daewon",
+  "password": "1234",
+  "permission": "MEMBER",
+  "email": "daewon@wisoft.io"
+}
+
+### 로그인
+POST localhost:8888/signIn
+Content-Type: application/json
+
+{
+  "accountId": "test1",
+  "password": "1234"
+}
+
